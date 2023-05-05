@@ -64,10 +64,10 @@ def evaluate_rule(rule, example, y=None, return_class_match=False):  # check if 
     curr = True
     for i in rule.idx:
         curr = curr and example[i]
-        if curr is False:
+        if curr == False:
             break
 
-    if return_class_match is False:
+    if return_class_match == False:
         if y is not None:
             warn("{a} is not used unless return_class_match = True".format(a=y))  # hmmm
             return curr
