@@ -1,4 +1,4 @@
-Work realted to O. Granmo's textbook
+Work related to O. Granmo's textbook
 
 
 
